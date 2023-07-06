@@ -3,9 +3,14 @@ Passenger Survival Prediction in Titanic Dataset
 
 Features Used-
 
-Pclas
-Age
-SibSp
-Parch
-Gender
-Embarked
+1.Pclass
+
+2.Age 
+
+3.SibSp 
+
+4.Parch
+
+5.Gender
+
+6.Embarked
