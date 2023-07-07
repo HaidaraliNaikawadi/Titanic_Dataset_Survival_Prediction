@@ -4,7 +4,7 @@ import config
 
 app=Flask(__name__)
 
-@app.route('/home')
+@app.route('/Titanic_model')
 def home():
     #return jsonify({'Result':'Successful'})
     return render_template('Titanic_prediction.html')
