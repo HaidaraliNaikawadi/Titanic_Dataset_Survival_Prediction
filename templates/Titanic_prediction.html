@@ -4,44 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titanic Survival Prediction</title>
+    <title style="color: wheat;">Titanic Survival Prediction</title>
 </head>
-<body style="background-color: rgb(82, 176, 204);">
-    <img src=".\templates\titanic_image.jpg">
+<body background="static\images\DJSX.gif">
 
-    <h1> Titanic Survival Prediction </h1>
+    <style>
+        body{
+          background-image: "static\images\DJSX.gif";
+          background-repeat: round;
+          background-position: center;
+        }
+    </style>
+    
+
+    <h1 style="color: wheat;"> Titanic Survival Prediction </h1>
 
     <form method="POST" action="/Titanic_pred">
 
-        <label>Pclass:</label>
+        <label style="color: wheat;">Pclass:</label>
         <input type = "text" name = "Pclass">
         </select>
 
         <br>
         <br>
 
-        <label>Age:</label>
+        <label style="color: wheat;">Age:</label>
         <input type = "text" name = "Age">
         </select>
 
         <br>
         <br>
 
-        <label>SibSp:</label>
+        <label style="color: wheat;">SibSp:</label>
         <input type = "text" name = "SibSp">
         </select>
 
         <br>
         <br>
 
-        <label>Parch:</label>
+        <label style="color: wheat;">Parch:</label>
         <input type = "text" name = "Parch">
         </select>
 
         <br>
         <br>
 
-        <label>Gender:</label>
+        <label style="color: wheat;">Gender:</label>
         <select name = "Gender">
             <option value = "male">male</option>
             <option value = "female">female</option>
@@ -51,7 +59,7 @@
         <br>
         <br>
 
-        <label>Embarked:</label>
+        <label style="color: wheat;">Embarked:</label>
         <select name = "Embarked">
             <option value = "C">C</option>
             <option value = "Q">Q</option>
@@ -66,8 +74,10 @@
 
         <br>
         <br>
+        <br>
+        <br>
 
-        <h4><strong>Passanger is <b> {{ prediction }}  </b>  </strong></h4>
+        <h3><strong style="color: wheat;">Passanger is <b> {{ prediction }}  </b>  </strong></h3>
 
     </form>
     
